@@ -10,7 +10,8 @@ def load_urls():
 def main():
     urls = load_urls()  # Load URLs from the JSON file
     
-    scraper_manager = ScraperManager(scraper_name='oddsportal')  # Specify scraper to run
+    #scraper_manager = ScraperManager(scraper_name='oddsportal')  # Specify scraper to run
+    scraper_manager = ScraperManager(scraper_name='thefishy')  # Specify scraper to run
     
     for url in urls:
         scraper_manager.run_scraper(url)

@@ -32,9 +32,14 @@ def save_to_csv(match_data, scraper_name, filename):
 
     
 
+def save_league_table_to_csv(table_data, scraper_name, filename):
+    """
+    Saves league table data to a CSV file inside the scraper's respective data folder.
 
-def save_league_standing_to_csv(match_data, scraper_name, filename):
-    
+    :param table_data: List of dictionaries containing league table data.
+    :param scraper_name: Name of the scraper (e.g., 'oddsportal', 'bet365').
+    :param filename: Name of the CSV file to save.
+    """
     # Get the absolute path to the scraper-specific data directory
     base_dir = os.path.dirname(os.path.dirname(__file__))  # Go to project root
     data_dir = os.path.join(base_dir, scraper_name, "data")
@@ -47,13 +52,13 @@ def save_league_standing_to_csv(match_data, scraper_name, filename):
 
     # Write data to CSV
     with open(csv_path, "w", newline="", encoding="utf-8") as file:
-        fieldnames = ['Date', 'Time', 'Home Team', 'Away Team', 'Home Odds', 'Draw Odds', 'Away Odds']
+        fieldnames = ['Pos', 'Team', 'P', 'HW', 'HD', 'HL', 'HF', 'HA', 
+                     'AW', 'AD', 'AL', 'AF', 'AA', 'GD', 'Pts', 'PPG']
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
-        for data in match_data:
+        for data in table_data:
             writer.writerow(data)
 
-    print(f"✅ League Standing Data saved successfully to {csv_path}")
+    print(f"✅ League table saved successfully to {csv_path}")
 
 
-    

@@ -1,7 +1,6 @@
 from oddsportal.oddsportal_scraper.oddsportal_scraper import get_page_content_selenium, parse_match_data
-from fishy.fishy_scraper.fishy_scraper import get_page_content_selenium, parse_match_data
-
-from utils import save_to_csv, save_league_standing_to_csv
+from fishy.fishy_scraper.fishy_scraper import get_fishy_page_content_selenium, parse_fishy_league_standing_data
+from utils import save_to_csv, save_league_table_to_csv
 import re
 
 class ScraperManager:
@@ -28,13 +27,13 @@ class ScraperManager:
 
         
     def _run_fishy_scraper(self, url):
-        page_content = get_page_content_selenium(url)
-        match_data = parse_match_data(page_content)
+        page_content = get_fishy_page_content_selenium(url)
+        match_data = parse_fishy_league_standing_data(page_content)
         
         # Generate a dynamic filename based on the URL (e.g., using the league name)
         filename = self._generate_filename_from_url(url)
         
-        save_league_standing_to_csv(match_data, scraper_name="oddsportal", filename=filename)
+        save_league_table_to_csv(match_data, scraper_name="fishy", filename=filename)
 
 
     def _generate_filename_from_url(self, url):

@@ -34,8 +34,8 @@ def parse_fishy_league_standing_data(page_content):
             wins = cols[13].text.strip()
             draws = cols[14].text.strip()
             losses = cols[15].text.strip()
-            goals_for = cols[6].text.strip()
-            goals_against = cols[7].text.strip()
+            goals_for = cols[16].text.strip()
+            goals_against = cols[17].text.strip()
             goal_difference = cols[18].text.strip()
             points = cols[19].text.strip()
 

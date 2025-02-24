@@ -37,17 +37,19 @@ class ScraperManager:
 
 
     def _generate_filename_from_url(self, url):
-        # Extract the country and league name from the URL
-        match = re.search(r'football/([^/]+)/([^/]+)/', url)
-        if match:
-            country, league = match.groups()
-            # Clean and format the filename
-            country = country.replace('-', '_')
-            league = league.replace('-', '_')
-            filename = f"{country}_{league}_matches.csv"
-        else:
-            filename = "unknown_league_matches.csv"
-
-        return filename
+        if self.scraper_name == 'thefishy':
+            return "data.csv"
+        elif self.scraper_name == 'oddsportal':
+            # Extract the country and league name from the URL
+            match = re.search(r'football/([^/]+)/([^/]+)/', url)
+            if match:
+                country, league = match.groups()
+                # Clean and format the filename
+                country = country.replace('-', '_')
+                league = league.replace('-', '_')
+                return f"{country}_{league}_matches.csv"
+        
+        # Default case for unknown scrapers
+        return "unknown_league_matches.csv"
     
   

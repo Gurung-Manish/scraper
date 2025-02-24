@@ -3,9 +3,13 @@ import json
 from scraper_manager import ScraperManager
 
 def load_urls():
-    with open('odds_urls.json', 'r') as file:
+    with open('league_standing_url.json', 'r') as file:
         data = json.load(file)
-    return data.get("oddsportal", [])
+    return data.get("thefishy", [])
+
+    # with open('odds_urls.json', 'r') as file:
+    #     data = json.load(file)
+    # return data.get("oddsportal", [])
 
 def main():
     urls = load_urls()  # Load URLs from the JSON file

@@ -30,7 +30,7 @@ def save_to_csv(match_data, scraper_name, filename):
     print(f"✅ Data saved successfully to {csv_path}")
 
 
-    
+
 
 def save_league_table_to_csv(table_data, scraper_name, filename):
     """
@@ -52,8 +52,10 @@ def save_league_table_to_csv(table_data, scraper_name, filename):
 
     # Write data to CSV
     with open(csv_path, "w", newline="", encoding="utf-8") as file:
-        fieldnames = ['Pos', 'Team', 'P', 'HW', 'HD', 'HL', 'HF', 'HA', 
-                     'AW', 'AD', 'AL', 'AF', 'AA', 'GD', 'Pts', 'PPG']
+        fieldnames = [
+            'Position', 'Team', 'Played', 'Wins', 'Draws', 'Losses', 
+            'Goals For', 'Goals Against', 'Goal Difference', 'Points'
+        ] 
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         for data in table_data:

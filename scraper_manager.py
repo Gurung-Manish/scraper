@@ -37,8 +37,31 @@ class ScraperManager:
 
 
     def _generate_filename_from_url(self, url):
+        season_mapping = {
+            "21": "2023_2024",
+            "20": "2022_2023",
+            "19": "2021_2022",
+            "18": "2020_2021",
+            "17": "2019_2020",
+        }
+        
+        table_mapping = {
+            "1": "england_premier_league",
+            "2": "england_championship",
+            "10": "scottish_premier_league",
+            "11": "scottish_championship",
+        }
+
+        
         if self.scraper_name == 'thefishy':
-            return "data.csv"
+            match = re.search(r'table=(\d+)&season=(\d+)', url)
+            if match:
+                table, season = match.groups()
+                league = table_mapping.get(table, f"unknown_league_{table}")
+                season_years = season_mapping.get(season, f"unknown_season_{season}")
+                return f"{league}_{season_years}.csv"
+            return "unknown_fishy_data.csv"
+    
         elif self.scraper_name == 'oddsportal':
             # Extract the country and league name from the URL
             match = re.search(r'football/([^/]+)/([^/]+)/', url)

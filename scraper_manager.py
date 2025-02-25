@@ -46,8 +46,8 @@ class ScraperManager:
         }
         
         table_mapping = {
-            "1": "england_premier_league",
-            "2": "england_championship",
+            "1": "english_premier_league",
+            "2": "english_championship",
             "10": "scottish_premier_league",
             "11": "scottish_championship",
         }

@@ -1,31 +1,87 @@
 {
-    "thefishy": [
-        
-       "https://thefishy.co.uk/leaguetable.php?table=1&season=21",
-       "https://thefishy.co.uk/leaguetable.php?table=1&season=20",
-       "https://thefishy.co.uk/leaguetable.php?table=1&season=19",
-       "https://thefishy.co.uk/leaguetable.php?table=1&season=18",
-       "https://thefishy.co.uk/leaguetable.php?table=1&season=17",
+  "thefishy": [
+    "https://thefishy.co.uk/leaguetable.php?table=1&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=1&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=1&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=1&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=1&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=1&season=17",
 
-       "https://thefishy.co.uk/leaguetable.php?table=2&season=21",
-       "https://thefishy.co.uk/leaguetable.php?table=2&season=20",
-       "https://thefishy.co.uk/leaguetable.php?table=2&season=19",
-       "https://thefishy.co.uk/leaguetable.php?table=2&season=18",
-       "https://thefishy.co.uk/leaguetable.php?table=2&season=17",
+    "https://thefishy.co.uk/leaguetable.php?table=2&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=2&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=2&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=2&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=2&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=2&season=17",
 
-    
-       "https://thefishy.co.uk/leaguetable.php?table=10&season=21",
-       "https://thefishy.co.uk/leaguetable.php?table=10&season=20",
-       "https://thefishy.co.uk/leaguetable.php?table=10&season=19",
-       "https://thefishy.co.uk/leaguetable.php?table=10&season=18",
-       "https://thefishy.co.uk/leaguetable.php?table=10&season=17",
+    "https://thefishy.co.uk/leaguetable.php?table=10&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=10&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=10&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=10&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=10&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=10&season=17",
 
+    "https://thefishy.co.uk/leaguetable.php?table=11&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=11&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=11&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=11&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=11&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=11&season=17",
 
-       "https://thefishy.co.uk/leaguetable.php?table=11&season=21",
-       "https://thefishy.co.uk/leaguetable.php?table=11&season=20",
-       "https://thefishy.co.uk/leaguetable.php?table=11&season=19",
-       "https://thefishy.co.uk/leaguetable.php?table=11&season=18",
-       "https://thefishy.co.uk/leaguetable.php?table=11&season=17"
-       
-    ]
+    "https://thefishy.co.uk/leaguetable.php?table=79&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=79&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=79&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=79&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=79&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=79&season=17",
+
+    "https://thefishy.co.uk/leaguetable.php?table=33&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=33&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=33&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=33&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=33&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=33&season=17",
+
+    "https://thefishy.co.uk/leaguetable.php?table=83&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=83&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=83&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=83&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=83&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=83&season=17",
+
+    "https://thefishy.co.uk/leaguetable.php?table=31&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=31&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=31&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=31&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=31&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=31&season=17",
+
+    "https://thefishy.co.uk/leaguetable.php?table=81&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=81&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=81&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=81&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=81&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=81&season=17",
+
+    "https://thefishy.co.uk/leaguetable.php?table=32&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=32&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=32&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=32&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=32&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=32&season=17",
+
+    "https://thefishy.co.uk/leaguetable.php?table=34&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=34&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=34&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=34&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=34&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=34&season=17",
+
+    "https://thefishy.co.uk/leaguetable.php?table=82&season=22",
+    "https://thefishy.co.uk/leaguetable.php?table=82&season=21",
+    "https://thefishy.co.uk/leaguetable.php?table=82&season=20",
+    "https://thefishy.co.uk/leaguetable.php?table=82&season=19",
+    "https://thefishy.co.uk/leaguetable.php?table=82&season=18",
+    "https://thefishy.co.uk/leaguetable.php?table=82&season=17"
+  ]
 }

@@ -6,7 +6,7 @@ def load_urls():
 
 
     return [
-        "https://www.betfair.com/betting/football/macau-fa-cup/benfica-macau-v-university-of-macau/e-34544739"
+        "https://www.betfair.com/betting/football/vietnamese-u21/viettel-u21-v-tay-ninh-u21/e-34545523"
     ]
 
 

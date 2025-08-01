@@ -49,6 +49,7 @@ class ScraperManager:
 
     def _generate_filename_from_url(self, url):
         season_mapping = {
+            "23": "2025_2026",
             "22": "2024_2025",
             "21": "2023_2024",
             "20": "2022_2023",

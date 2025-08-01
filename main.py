@@ -6,14 +6,14 @@ from scraper_manager import ScraperManager
 def load_urls():
 
 
-    return [
-        "https://www.betfair.com/betting/football/vietnamese-u21/viettel-u21-v-tay-ninh-u21/e-34545523"
-    ]
+    # return [
+    #     "https://www.betfair.com/betting/football/vietnamese-u21/dong-thap-u21-v-dak-lak-fc-u21/e-34545526"
+    # ]
 
 
-    # with open('league_standing_url.json', 'r') as file:
-    #     data = json.load(file)
-    # return data.get("thefishy", [])
+    with open('league_standing_url.json', 'r') as file:
+        data = json.load(file)
+    return data.get("thefishy", [])
 
     # with open('odds_urls.json', 'r') as file:
     #     data = json.load(file)
@@ -24,8 +24,8 @@ def main():
     urls = load_urls()  # Load URLs from the JSON file
     
     # scraper_manager = ScraperManager(scraper_name='oddsportal')  # Specify scraper to run
-    # scraper_manager = ScraperManager(scraper_name='thefishy')  # Specify scraper to run
-    scraper_manager = ScraperManager(scraper_name='betfair')  # Specify scraper to run
+    scraper_manager = ScraperManager(scraper_name='thefishy')  # Specify scraper to run
+    #scraper_manager = ScraperManager(scraper_name='betfair')  # Specify scraper to run
     
     for url in urls:
         scraper_manager.run_scraper(url)
